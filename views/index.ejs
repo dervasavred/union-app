@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>IBEW Local 8 Hours Tracker </title>
+  </head>
+  <body>
+
+    <section class="row">
+      <section class="col">
+        <h2>Locations</h2>
+        <ul class="location-list">
+          <% for (let i=0; i < info.length; i++) { %>
+            <li class="location">
+                <span><%= info[i] %></span>
+            </li>
+
+          <% }; %>
+        </ul>
+      </section>
+    </section>
+
+    <script type="text/javascript" src="/main.js"></script>
+  </body>
+</html>
