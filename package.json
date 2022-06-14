@@ -1,0 +1,15 @@
+{
+  "name": "union-app",
+  "version": "1.0.0",
+  "description": "Time tracker app for Local 8 IBEW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dervasavred",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
